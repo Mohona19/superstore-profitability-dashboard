@@ -1,6 +1,8 @@
 # superstore-profitability-dashboard
 ## Overview
-This project analyzes sales, profit, discount behavior, and sub-category performance using the Superstore dataset. The goal was to move beyond surface-level revenue reporting and identify what was driving profitability leakage across the portfolio.
+This project identifies profit leakage drivers in a $2.3M retail portfolio by analyzing the impact of discounting, product mix, and sub-category performance.
+
+Key finding: Profitability erosion is concentrated in specific sub-categories (Tables, Bookcases, Supplies) driven by excessive discounting, while other categories remain resilient even at higher discount levels.
 
 ## Business Problem
 Revenue alone does not explain business performance. A company may generate strong sales while still underperforming on profit due to weak margins, excessive discounting, or poor product mix.
