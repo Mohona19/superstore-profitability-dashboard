@@ -61,10 +61,12 @@ See [`sql/profitability_analysis.sql`](sql/profitability_analysis.sql)
 
 
 ### Profit by Sub-Category
-![Profit by Sub-Category](screenshots/profit-by-subcategory.png)
+<img width="245" height="273" alt="Profit by subcategory" src="https://github.com/user-attachments/assets/20deb1c9-19ad-4480-a586-06b29b9cf192" />
+
 
 ### Discount vs Profit
-![Discount vs Profit](screenshots/discount-vs-profit.png)
+<img width="255" height="202" alt="Discount vs Profit" src="https://github.com/user-attachments/assets/65a0847c-878c-491f-9eff-f8fafa260e58" />
+
 
 ## What I Learned
 This project reinforced the importance of analyzing profitability at a more granular level rather than relying on top-line revenue. It also showed how pricing and discount strategies can have uneven effects across categories, making segmented decision-making more effective than a one-size-fits-all approach.
