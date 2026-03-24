@@ -1,4 +1,5 @@
 # superstore-profitability-dashboard
+Analyzed a $2.3M retail portfolio (~10K orders) to identify profit leakage drivers, uncovering margin erosion in key sub-categories and enabling targeted pricing strategy recommendations.
 ## Overview
 This project identifies profit leakage drivers in a $2.3M retail portfolio by analyzing the impact of discounting, product mix, and sub-category performance.
 
@@ -34,18 +35,16 @@ This dashboard was built to answer:
 - Key business insights panel
 
 ## Key Insights
-- Furniture was the weakest category by profit contribution
-- Tables, Bookcases, and Supplies had negative profit margins
-- Profit leakage was concentrated, not uniform across the portfolio
-- Higher discounts were often associated with lower profitability
-- Some sub-categories remained profitable despite higher discounts, suggesting discount sensitivity differs by product group
-- A uniform discount strategy is inefficient and should be replaced with more segmented pricing decisions
+- Profitability is highly concentrated — losses are driven by a few sub-categories, not the entire portfolio
+- Tables and Bookcases are structurally unprofitable, indicating pricing or cost issues
+- Discounting has a nonlinear impact — some categories remain profitable at higher discounts while others quickly erode margin
+- A uniform discount strategy leads to margin leakage and inefficient pricing decisions
 
 ## Business Recommendations
-- Reduce or cap discounts for structurally weak sub-categories such as Tables and Bookcases
-- Reassess pricing and cost structure for consistently unprofitable products
-- Apply discounting more selectively based on product-level margin sensitivity
-- Focus commercial effort on high-margin categories and sub-categories
+- Eliminate or significantly reduce discounting on loss-making sub-categories (Tables, Bookcases)
+- Implement margin-based discount thresholds instead of uniform discounting
+- Prioritize sales efforts toward high-margin categories such as Technology and Copiers
+- Conduct pricing and cost diagnostics for persistently unprofitable products
 
 ## SQL Analysis
 Sample SQL questions used in the analysis included:
@@ -71,7 +70,7 @@ See [`sql/profitability_analysis.sql`](sql/profitability_analysis.sql)
 
 
 ## What I Learned
-This project reinforced the importance of analyzing profitability at a more granular level rather than relying on top-line revenue. It also showed how pricing and discount strategies can have uneven effects across categories, making segmented decision-making more effective than a one-size-fits-all approach.
+This project reinforced the importance of analyzing profitability at a more granular level rather than relying on top-line revenue. It also showed how pricing and discount strategies can have uneven effects across categories, making segmented decision-making more effective than a one-size-fits-all approach. This analysis highlights the importance of moving beyond aggregated metrics and evaluating profitability at the sub-category level to uncover hidden performance drivers.
 
 ## Next Steps
 - Add customer segment analysis
