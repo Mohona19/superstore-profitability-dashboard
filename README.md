@@ -57,7 +57,7 @@ See [`sql/profitability_analysis.sql`](sql/profitability_analysis.sql)
 
 ## Screenshots
 ### Dashboard Overview
-![Dashboard Overview](screenshots/dashboard-overview.png)
+screenshots/Dashboard Overview.png
 
 ### Profit by Sub-Category
 ![Profit by Sub-Category](screenshots/profit-by-subcategory.png)
